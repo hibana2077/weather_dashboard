@@ -2,7 +2,7 @@ import React from 'react';
 import { Card } from "@/components/ui/card"
 import { Cloud, Sun, Droplets } from 'lucide-react';
 
-const API_URL = 'https://opendata.cwa.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=CWA-488A0E11-95B0-4E18-A637-08C4D2517F3D&format=JSON&elementName=MaxT';
+const API_URL = 'https://opendata.cwa.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=TOKEN&format=JSON&elementName=MaxT';
 
 const WeatherIcon = ({ temp }: { temp: number }) => {
   if (temp >= 30) return <Sun className="h-8 w-8 text-yellow-500" />;
