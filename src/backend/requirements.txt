@@ -7,5 +7,5 @@ pypdf
 translators
 
 fastapi
-
+uvicorn
 redis
