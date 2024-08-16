@@ -1,0 +1,11 @@
+python-dotenv
+
+transformers
+datasets
+pypdf
+
+translators
+
+fastapi
+
+redis
