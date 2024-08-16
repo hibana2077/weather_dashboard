@@ -10,4 +10,6 @@ RUN next build
 
 COPY . .
 
+EXPOSE 8080
+
 CMD ["npm", "run", "start"]
